@@ -33,5 +33,8 @@ class ModelTests(TestCase):
             'test@londonapp.com',
             'Test123'
         )
+
         self.assertTrue(user.is_superuser)
         self.assertTrue(user.is_staff)
+
+
